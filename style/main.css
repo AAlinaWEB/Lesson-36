@@ -33,9 +33,10 @@ header {
     list-style-type: none;
     margin-left: 20px;
     text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     color: white;
     font-size: 16px;
+    font-weight: 400;
 }
 
 .link a{
@@ -58,7 +59,8 @@ header {
 .text-title{
     color: #F7F3EA;
     font-size: 26px;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
 }
 
 .btn{
@@ -70,55 +72,67 @@ header {
 }
 
 button{
+    width: 200px;
     text-decoration: none;
     color: white;
     font-size: 13px;
     font-weight: 700;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
     border: 1px solid rgb(240, 157, 64);
     background: rgb(240, 157, 64);
     padding: 15px 35px;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
-.container2{
+.container1{
     width: 100%;
     height: 747px;
     background: rgba(23, 194, 164, 1);
 }
 
-.main-box1{
+.main-box{
     width: 100%;
     display: block;
     align-items: center;
     text-align: center;
 }
 
-.heading-services{
+.main-heading{
     color: white;
     font-size: 40px;
     text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
-    padding-top: 80px;
-    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    padding-top: 100px;
+    font-weight: 700;
     padding-bottom: 15px;
 }
 
-.text-box-services{
+.main-heading1{
     color: white;
+}
+
+.text-box{
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     padding-top: 20px;
+}
+
+.text-box1{
+    color: white;
 }
 
 .icons-services{
     width: 80%;
     display: inline-flex;
     justify-content: space-between;
+    margin-top: 70px;
 }
 
-.icon-text-services{
+.icon-box-services{
     display: block;
     align-items: center;
+    width: 200px;
 }
 
 .heading-icon-services{
@@ -127,9 +141,84 @@ button{
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    margin-top: 50px;
 }
 
-.text-icon{
+.text-icon-services{
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 30px;
+    font-weight: 300;
+}
+
+.container2{
+    width: 100%;
+    height: 914px;
+    background: rgba(231, 241, 248, 1);
+}
+
+.main-heading2 {
+    color: #3C4761;
+}
+
+.text-box2{
+    color: #3C4761;
+}
+
+.icons-team{
+    width: 80%;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.icon-box-team{
+    width: 250px;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.team-icon{
+    align-items: center;
+    text-align: center;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: rgba(135, 135, 135, 1);
+}
+
+.heading-icon-team{
+    color: #27283D;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.under-heading-icon-team{
+    font-size: 16px;
+    color: #30BAE7;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.text-icon-team{
+    font-size: 16px;
+    color: #3C4761;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+}
+
+.iicons{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.iicon{
+
 }
