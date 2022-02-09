@@ -304,3 +304,41 @@ button{
     height: 1423px;
     background: rgba(255, 221, 153, 1);
 }
+
+.main-heading4{
+    color: #393939;
+}
+
+.text-box4{
+    color: #393939;
+}
+
+.buttons-portfolio{
+    width: 25%;
+    display: inline-flex;
+    justify-content: space-between;
+    height: 38px;
+    margin-top: 50px;
+}
+
+.buttons-portfolio a{
+    text-decoration: none;
+}
+
+.button-portfolio{
+    width: 84px;
+    height: 38px;
+    color: #393939;
+    background: rgba(0, 0, 0, 0.0784313725490196);;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.button-portfolio:hover{
+    background: rgba(255, 255, 255, 1);
+}
