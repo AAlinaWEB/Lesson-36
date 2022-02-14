@@ -63,7 +63,7 @@ header {
     font-weight: 700;
 }
 
-.btn{
+.btn1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,7 +71,7 @@ header {
     padding-bottom: 100px;
 }
 
-button{
+.button1{
     width: 200px;
     text-decoration: none;
     color: white;
@@ -341,4 +341,218 @@ button{
 
 .button-portfolio:hover{
     background: rgba(255, 255, 255, 1);
+}
+
+.images-portfolio{
+    width: 1100px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 50px 0px 70px 0;
+}
+
+.img-computer{
+    width: 541px;
+    height: 311px;
+}
+
+.heading-img-computer{
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #393939;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.img-computer2{
+    margin-top: 50px;
+}
+
+.btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.button2{
+    width: 294px;
+    height: 70px;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    background: rgba(23, 194, 164, 1);
+    padding: 15px 35px;
+    border-radius: 3px;
+    border: 1px solid rgba(23, 194, 164, 1);
+}
+
+.people{
+    background:rgba(215, 70, 128, 1);
+}
+
+.people-inner{
+    width: 100%;
+}
+
+.text-box5{
+    color: white;
+}
+
+.reviews{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.review{
+    width: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.ccircle{
+    width: 96px;
+    height: 96px;
+    border-radius:50%;
+    background: rgba(135, 135, 135, 1);
+    margin-right: 20px;
+}
+
+.review-text{
+    width: 326px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: left;
+}
+
+.review-owner{
+    color: white;
+    font-size: 24px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    text-align: left;
+}
+
+.under-review-owner{
+    color: #FFDD99;
+    font-size: 24px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+.container6{
+    background: rgba(60, 84, 153, 1);
+}
+
+.text-box6{
+    color: white;
+}
+
+.forms{
+    width: 860px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.form {
+    background: rgb(44, 60, 110);
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Titillium Web', sans-serif;
+    padding-left: 20px;
+}
+
+.name-email{
+    width: 414px;
+    height: 56px;
+    color: white;
+}
+
+.your-message{
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+}
+
+input::-webkit-input-placeholder{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.forms-button{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 110px;
+}
+
+.forms-btn{
+    width: 294px;
+    height: 70px;
+    background: rgb(0, 195, 255);
+    border-radius: 5px;
+    border: 1px solid transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+}
+
+footer{
+    width: 100%;
+}
+
+li{
+    list-style-type: none;
+}
+
+.footer-container{
+    width: 100%;
+    background: rgba(52, 75, 142, 1);
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footerinner{
+    width: 60%;
+    display: inline-flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.footer-text a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-twitter{
+    color: rgb(3, 161, 209);
 }
